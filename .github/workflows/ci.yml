@@ -1,7 +1,6 @@
 name: ci
 concurrency: 
-  group: ${{ github.head_ref }}
-
+  group: production
 on:
   workflow_dispatch
 
