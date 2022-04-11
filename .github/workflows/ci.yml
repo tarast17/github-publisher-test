@@ -1,6 +1,4 @@
 name: ci
-concurrency: 
-  group: production
 on:
   workflow_dispatch
 
