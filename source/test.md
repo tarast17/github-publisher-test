@@ -4,3 +4,4 @@ category: hidden
 ---
 
 coucou
+![[OMFG.png]]
