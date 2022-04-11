@@ -19,7 +19,7 @@ jobs:
           do
             if [[ "$f" == *md ]] 
             then
-              obs2mk --GA --keep file $f
+              obs2mk --GA --keep file "$f"
             fi
           done
           obs2mk --GA clean
