@@ -1,8 +1,9 @@
 name: ci
-on:
-  workflow_dispatch
 concurrency: 
   group: ${{ github.head_ref }}
+
+on:
+  workflow_dispatch
 
 jobs:
   path-filter:
