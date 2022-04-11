@@ -1,45 +1,45 @@
 ---
-type: Idées
+type: IdÃ©es
 univers: Resident Evil
 date: 26-10-2021
 obsidianUIMode: preview
 share: true
-category: Roleplay/Idées/Zombie Project
+category: Roleplay/IdÃ©es/Zombie Project
 ---
 
 [Serveur](https://discord.gg/qGKFutdY4R)
 
 ---
-*La tempête faisait rage, le vent s'était levée deux heures plus tôt et de haute et lourde vague frappait les digues de la petite ville portuaire. 
-La nuit noire était tombée depuis longtemps, plongeant la ville dans un silence apocalyptique.*
+*La tempÃªte faisait rage, le vent s'Ã©tait levÃ©e deux heures plus tÃ´t et de haute et lourde vague frappait les digues de la petite ville portuaire. 
+La nuit noire Ã©tait tombÃ©e depuis longtemps, plongeant la ville dans un silence apocalyptique.*
 
-*Quelque lumière, ici et là, vacillaient dans le vent.*
+*Quelque lumiÃ¨re, ici et lÃ , vacillaient dans le vent.*
 
-*Les voitures avaient été abandonnées, et leurs feux éteints depuis longtemps.*
+*Les voitures avaient Ã©tÃ© abandonnÃ©es, et leurs feux Ã©teints depuis longtemps.*
 
-*Les mâts des bateaux se frappaient entre eux, ignorant l'apocalypse.* 
+*Les mÃ¢ts des bateaux se frappaient entre eux, ignorant l'apocalypse.* 
 
-*Certains avaient tenté de fuir, durant le cataclysme. Combien était morts, par la tempête et l'infection ? Combien de cadavre seront rejeté par la mer, sur les côtes, dans les jours, semaines et mois à venir ?*
+*Certains avaient tentÃ© de fuir, durant le cataclysme. Combien Ã©tait morts, par la tempÃªte et l'infection ? Combien de cadavre seront rejetÃ© par la mer, sur les cÃ´tes, dans les jours, semaines et mois Ã  venir ?*
 
-*Windport n'était plus qu'une ville fantôme, habitée par le silence et les râles d'agonies.*
+*Windport n'Ã©tait plus qu'une ville fantÃ´me, habitÃ©e par le silence et les rÃ¢les d'agonies.*
 
 ---
 
-*La douleur était insoutenable. Son bras n'était plus qu'un moignon, réduits en charpie par un éboulement alors qu'elle tentait de fuir le chaos du laboratoire.*
+*La douleur Ã©tait insoutenable. Son bras n'Ã©tait plus qu'un moignon, rÃ©duits en charpie par un Ã©boulement alors qu'elle tentait de fuir le chaos du laboratoire.*
 
-*Elle était tombée, de nombreuses fois. Elle avait glissé dans la boue, les cadavres et l'eau charriée par les égouts.*
+*Elle Ã©tait tombÃ©e, de nombreuses fois. Elle avait glissÃ© dans la boue, les cadavres et l'eau charriÃ©e par les Ã©gouts.*
 
 *Elle avait faim.
 Elle avait soif.
-Elle était triste et en colère.*
+Elle Ã©tait triste et en colÃ¨re.*
 
-*Vêtue simplement d'une blouse, elle n'avait même pas eu le temps de se changer après leurs... Expériences. 
-Elle était pied nu.*
+*VÃªtue simplement d'une blouse, elle n'avait mÃªme pas eu le temps de se changer aprÃ¨s leurs... ExpÃ©riences. 
+Elle Ã©tait pied nu.*
 
 *Elle se hissa sur un trottoir, hors de la boue. 
-Le sang noir perlait de ses blessures, épais et visqueux. Il coagulait déjà.*
+Le sang noir perlait de ses blessures, Ã©pais et visqueux. Il coagulait dÃ©jÃ .*
 
 *Elle avait sommeil.*
 
-*Éden se recroquevilla dans un coin, ramenant ses jambes contre son torse. 
+*Ã‰den se recroquevilla dans un coin, ramenant ses jambes contre son torse. 
 Elle avait si sommeil...*
