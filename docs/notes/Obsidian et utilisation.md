@@ -1,8 +1,7 @@
 ---
-share: true
+share: True
 title: "Comment j'utilise Obsidian"
 ---
-
 Comme je l'ai déjà dit dans [[Pourquoi Obsidian]], mon utilisation du logiciel diffère assez des autres utilisateurs. 
 En effet, j'utilise une hiérarchie de dossier principalement, notamment parce que c'est aussi plus facile d'y naviguer directement depuis l'explorateur et, personnellement j'ai moins de soucis pour parcourir mentalement.
 
@@ -21,8 +20,9 @@ Nom du perso/
 ├─ Nom du perso (*)
 ```
 
+
 Note : les fichiers marqué d'un astérisque sont invisibles dans Obsidian s'ils ont le même nom que le dossier. Il est possible de personnaliser le comportement de Folder Note. Par exemple, vous pouvez les mettre à l'extérieur ou utiliser le nom "index" par défaut. 
-Typiquement, pour la fiche de [[Hayleen May|(i) Hayleen May]], le truc ressemble à ça :
+Typiquement, pour la fiche de [[/Roleplay/Personnages/Hayleen May/index.md|Hayleen May]], le truc ressemble à ça :
 ![[Pasted image 20220126170658.png]]
 Mais en réalité, le dossier est composé comme ça :
 ![[Pasted image 20220126171043.png|800]]
@@ -52,6 +52,6 @@ Pareil, plutôt que de péter entièrement la mise en forme quand je rajoute une
 
 C'est plus léger et pratique, et ça me convient super bien. 
 
-Typiquement le "carnet" de [[Mnémosyne|(i) Mnémosyne]] pour [[(Fiche) Mnémosyne (Lagendia)|Lagendia]] ressemble à ça :
+Typiquement le "carnet" de [[/Roleplay/Personnages/Mnémosyne/index.md|Mnémosyne]] pour [[(Fiche) Mnémosyne (Lagendia)|Lagendia]] ressemble à ça :
 ![[Pasted image 20220126174208.png]]
 (Petit bonus : Relation est un dossier, donc si je veux prendre des notes sur un perso, ça me créera un fichier automatiquement en cliquant sur le lien, et j'aurai **rien** à bouger.)

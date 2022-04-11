@@ -1,8 +1,7 @@
 ---
-share: true
-title: Pourquoi Obsidian ?
+share: True
+title: "Pourquoi Obsidian ?"
 ---
-
 # Introduction
 
 Pourquoi ai-je choisi Obsidian par rapport à d'autres app de prise de note ? À la base, parce que c'est une application en **markdown**, **gratuite** et **disponible sur téléphone**. Pourquoi j'ai continué à l'utiliser, par rapport à Notion ou ClickUp ? 
@@ -35,6 +34,7 @@ Des tableaux tel que :
 | ------------------ | ------------------------- |
 | Je suis du contenu | Et moi aussi              |
 ```
+
 
 (Je sais, c'est moche)
 
@@ -112,4 +112,3 @@ Source (En anglais) :
 - [TfT Performance : Obsidian](https://www.goedel.io/p/tft-performance-obsidian)
 - [Obsidian Privacy](https://cdn.discordapp.com/attachments/908731169305153606/908774932077498408/unknown.png)
 - [Silver's (Erica Xu) Interview ](https://nesslabs.com/obsidian-featured-tool)
-

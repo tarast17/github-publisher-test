@@ -1,22 +1,21 @@
 ---
-folder: Roleplay
-date: 29-06-2019
-share: true
-category: Roleplay/Personnages
-type: OC
-name: Azraël Blakes
-univers: Bibliothèque Infinie
-doc: MD
-tag:
-- OC
-- RP/Bibliothèque-Infinie
-cover: https://i.imgur.com/9mRMewR.png
+folder: "Roleplay"
+date: "29-06-2019"
+share: True
+category: "Roleplay/Personnages"
+type: "OC"
+name: "Azraël Blakes"
+univers: "Bibliothèque Infinie"
+doc: "MD"
+tag: ['OC', 'RP/Bibliothèque-Infinie']
+cover: "https://i.imgur.com/9mRMewR.png"
 ---
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
 FROM [[#]]
 WHERE type="Fiche"
 ```
+
 ---
 
 **Nom** : Blakes

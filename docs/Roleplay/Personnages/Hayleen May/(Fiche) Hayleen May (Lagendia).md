@@ -1,23 +1,22 @@
 ---
-title: (Lagendia) Hayleen May
-alias: Fiche Hayleen May, Hayleen Fiche, Lagendia Fiche Hayleen
-date: 23-01-2022
-category: Roleplay/Personnages/Hayleen May
-share: true
+title: "(Lagendia) Hayleen May"
+alias: "Fiche Hayleen May, Hayleen Fiche, Lagendia Fiche Hayleen"
+date: "23-01-2022"
+category: "Roleplay/Personnages/Hayleen May"
+share: True
 description: "Fiche d'Hayleen May, pour Lagendia. Une élève Dragon Pourpre, contrôlant le bois et à fort caractère !"
-type: Fiche
-state: 🟢
-univers: Lagendia
-tag: RP/Lagendia/Fiche/PJ
-image: COMMISSION_MARA_PP.png
-tag: Lagendia
+type: "Fiche"
+state: "🟢"
+univers: "Lagendia"
+tag: "Lagendia"
+image: "COMMISSION_MARA_PP.png"
 ---
-%% [[Hayleen May]] %%
 ```dataview
 LIST
 FROM [[Hayleen May]] and "20. Compendium"
 WHERE type != "fiche" 
 ```
+
 
  <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
@@ -118,7 +117,8 @@ Sinon, pour ses vêtements, elle est du genre à préférer les trucs proches du
 
 **Style vestimentaire** : Rock et naturel
 
-⇒ [[Illustration (Hayleen)|Illustration]] #left
+⇒ [[Illustration (Hayleen)|Illustration]] **left**{: #left .hash}  
+
 
 <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 H i s t o i r e<br>
@@ -241,4 +241,4 @@ Hayleen, pour le moment, maîtrise le Façonnage uniquement sur les objets de hu
 *Durée :* 3 tours
 *Description* : Hayleen améliore l'attribut d'un objet, mais affaiblie une autre. 
  
-[^1]: "Grimalkin" est un terme initialement associé à des chat-fées dans les légendes irlandaises, devenus plus généralement associé à la sorcellerie. 
+[^1]: "Grimalkin" est un terme initialement associé à des chat-fées dans les légendes irlandaises, devenus plus généralement associé à la sorcellerie.

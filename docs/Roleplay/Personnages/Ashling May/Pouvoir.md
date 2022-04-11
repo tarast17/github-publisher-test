@@ -1,19 +1,14 @@
 ---
-folder: Roleplay
-date: 12-06-2021
-category: Roleplay/Personnages/Ashling May
-publish: true
-share: true
-title: Pouvoir
-type: Pouvoir
-state: ❌
-tag:
-- Ashling-May/Référence
-- RP/Fiche
-- Pouvoir
-- Futuriste
+folder: "Roleplay"
+date: "12-06-2021"
+category: "Roleplay/Personnages/Ashling May"
+publish: True
+share: True
+title: "Pouvoir"
+type: "Pouvoir"
+state: "❌"
+tag: ['Ashling-May/Référence', 'RP/Fiche', 'Pouvoir', 'Futuriste']
 ---
-
 Ref: [[Ashling May]]
 # [[Technomage]]
 

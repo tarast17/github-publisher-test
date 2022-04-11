@@ -1,12 +1,12 @@
 ---
-category: Roleplay/Personnages
-cover: https://www.mara-li.fr/assets/img/Kara__BB.png
-image: Kara__BB.png
-date: 11-03-2022
+category: "Roleplay/Personnages"
+cover: "https://www.mara-li.fr/assets/img/Kara__BB.png"
+image: "Kara__BB.png"
+date: "11-03-2022"
 description: "Fiche de Kara Grimalkin"
-share: true
-type: OC
-univers: FFXIV
+share: True
+type: "OC"
+univers: "FFXIV"
 ---
 ```dataview
 table state AS Status
@@ -14,14 +14,17 @@ FROM [[#]]
 where type = "Fiche"
 ```
 
-> [!grid] Illustrations
-> ![[Kara__BB.png]] 
-> ![[Kara_Full.png]]
-> 
-> ![[Kara_Portrait2.png|]]
-> ![[Kara_portrait.png|]]
 
-#FFXIV #Gardemald
+!!! NOTE "Illustrations"
+	![[Kara__BB.png]] 
+	![[Kara_Full.png]]
+	
+	![[Kara_Portrait2.png|]]
+	![[Kara_portrait.png|]]
+
+**FFXIV**{: #FFXIV .hash}  
+ **Gardemald**{: #Gardemald .hash}  
+
 # ─────༺ Présentation ༻─────
 
 **Nom** : Grimalkin

@@ -1,28 +1,23 @@
 ---
-folder: Roleplay
-date: 03-05-2021
-category: Roleplay/Personnages
-publish: true
-share: true
-type: OC
-doc: MD
-univers: ❌
-update: false
-image: Quinn Jayzee.png
-cover: https://www.mara-li.fr/assets/img/Quinn%20Jayzee.png
-tag:
-- OC
-- ❌
-- Futuriste
-- Pirate
-- SF
-- Humaine
+folder: "Roleplay"
+date: "03-05-2021"
+category: "Roleplay/Personnages"
+publish: True
+share: True
+type: "OC"
+doc: "MD"
+univers: "❌"
+update: False
+image: "Quinn Jayzee.png"
+cover: "https://www.mara-li.fr/assets/img/Quinn%20Jayzee.png"
+tag: ['OC', '❌', 'Futuriste', 'Pirate', 'SF', 'Humaine']
 ---
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
 FROM [[#]]
 WHERE type="Fiche"
 ```
+
 ---
 ![[Quinn Jayzee.png|+pins]]
 

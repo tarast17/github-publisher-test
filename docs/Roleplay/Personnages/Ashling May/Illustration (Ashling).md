@@ -1,12 +1,11 @@
 ---
-publish: false
-share: true
-type: Illustration
-update: false
-title: Illustration
-category: Roleplay/Personnages/Ashling May
+publish: False
+share: True
+type: "Illustration"
+update: False
+title: "Illustration"
+category: "Roleplay/Personnages/Ashling May"
 ---
-
 # 2017
 ![[Ref 2017.png|+grid]]![[Ashling hermite.png|+grid]]
 ![[Clothes ref.png|+grid]]
