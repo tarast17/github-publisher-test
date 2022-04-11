@@ -1,7 +1,6 @@
 ---
-share: true
-category: shitpost
+share: True
+category: "shitpost"
 ---
-
 coazeae
 zeojaeozraRJ£AZJER
