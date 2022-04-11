@@ -8,4 +8,4 @@ Tesing using phone
 Gcihcug ug ufwyrwyr
 Tclhcugcutct
 H lchihcutxugcig ug yrwufwugig 
- ![[Grimm_Nemo.jpg]]
+![[Grimm_Nemo.jpg]]
