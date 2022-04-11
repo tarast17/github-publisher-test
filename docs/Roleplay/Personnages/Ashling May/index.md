@@ -1,15 +1,15 @@
 ---
-date: 12-06-2020
-share: true
-title: Ashling May
-alias: Ashling, Ash, index
-type: OC
-category: Roleplay/Personnages/Ashling May
-doc: Personnalisé
-image: Commission Feilyn.png
-cover: https://www.mara-li.fr/assets/img/Commission%20Feilyn.png
-genre: PJ
-univers: ❌
+date: "12-06-2020"
+share: True
+title: "Ashling May"
+alias: "Ashling, Ash, index"
+type: "OC"
+category: "Roleplay/Personnages/Ashling May"
+doc: "Personnalisé"
+image: "Commission Feilyn.png"
+cover: "https://www.mara-li.fr/assets/img/Commission%20Feilyn.png"
+genre: "PJ"
+univers: "❌"
 ---
 $~$
 ```dataview
@@ -17,6 +17,7 @@ Table WITHOUT ID state as Status, (link(file.path, title)) as LINK
 FROM [[#]]
 WHERE type="Fiche"
 ```
+
 
 ---
 # ─────༺ Présentation ༻─────
@@ -123,12 +124,8 @@ Ashling est une personne plutôt lâche, qui n'aime pas prendre des risques inut
 
 # [[Pouvoir]]
 
-%% [[Invocation d'armes]], [[Sortilège]] %%
  
 ![[Pouvoir#Technomage]]
 
 ---
 ![[Illustration (Ashling)]]
-
-
-
