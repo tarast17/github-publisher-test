@@ -41,3 +41,9 @@ jobs:
           git add . 
           git commit -am "Updated blog 🎉"
           git push
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v3
+        with: 
+          path: requirements.txt
+      - name: Build mkdocs
+        run: mkdocs gh-deploy --force --clean
