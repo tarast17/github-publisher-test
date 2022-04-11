@@ -1,6 +1,6 @@
-site_name: 
-site_description: 
-site_url: 
+site_name: bloup
+site_description: BLOUP BLOUP
+site_url: https://mara-li.github.io/obsidian-sandbox/
 
 theme:
     name: 'material'
