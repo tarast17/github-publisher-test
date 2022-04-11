@@ -1,9 +1,8 @@
 ---
-send: true 
-dg-home: true
-dg-publish: true
+send: True
+dg-home: True
+dg-publish: True
 ---
-
 it is a note ?
 Tesing using phone
 Gcihcug ug ufwyrwyr
