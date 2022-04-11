@@ -4,14 +4,29 @@ on:
     branches:
       - master
       - main
+
 jobs:
+  path-filter:
+    runs-on: ubuntu-latest
+    outputs:
+      output1: ${{ steps.filter.outputs.sources }}
+    steps:
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            sources:
+              - 'source/**'
   obs2mk:
     runs-on: ubuntu-latest
+    needs: path-filter
+    if: needs.path-filter.outputs.output1 == 'true'
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
         with:
           python-version: 3.10.2
+  
       - name: obs2mk source files
         run: |
           pip install git+https://github.com/Mara-Li/mkdocs_obsidian_publish.git@github-actions
