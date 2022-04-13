@@ -88,6 +88,12 @@
     font-weight: normal;
 }
 
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+      --md-primary-fg-color:  #477bbd;
+      --md-accent-fg-color: #477bbd
+}
+
 code {
   display: inline-block;
 }
