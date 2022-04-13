@@ -84,11 +84,11 @@ WHERE type != "OC" and type != "Fiche"
 	## Personnalité
 	
 	| Défaut      | Qualité      |
-|-------------|--------------|
-| Railleuse   | Curieuse     |
-| Sarcastique | Ingénieuse   |
-| Désinvolte  | Joueuse      |
-| Versatile   | Décontractée |
+	|-------------|--------------|
+	| Railleuse   | Curieuse     |
+	| Sarcastique | Ingénieuse   |
+	| Désinvolte  | Joueuse      |
+	| Versatile   | Décontractée |
 	$~~~~~$ Dans sa jeunesse, Mnémosyne était plus chaotique que maintenant. Détestant l'ordre et adorant le chaos, elle n'hésita pas à trahir son camp par simple amusement. Car l'ordre des choses l'ennuie.
 	
 	$~~~~~$ Aujourd'hui, Mnémosyne est plus calme, mais elle n'aime pas suivre les gens et ordre aveuglément, ce qui font qu'elle est très difficile à contrôler pour l'[[Écho]], qui la garde sous surveillance tout en lui laissant bien plus de liberté que la plupart des membres ayant un grade similaire.
