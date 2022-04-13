@@ -1,6 +1,6 @@
 site_name: Seed
 site_description: A little owl
-site_url: https://www.mara-li.fr/
+site_url: https://mara-li.github.io/obsidian-sandbox/
 
 theme:
     name: 'material'
