@@ -1,3 +1,5 @@
-index_key=(i)
+
+	index_key=(i)
 		default_blog=note
 		category_key=folder
+		
