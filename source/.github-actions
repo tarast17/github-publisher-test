@@ -1,4 +1,5 @@
-index_key=(i)
-default_blog=notes
-category_key=category
-share=shareindex_key=(i)default_blog=notes
+
+		index_key=(i)
+		default_blog=notes
+		category_key=folder
+		
