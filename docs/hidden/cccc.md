@@ -1,8 +1,7 @@
 ---
 category: hidden
-share: true
+share: True
 ---
-
 `code`
 
 **NORMAL QUOTE**
@@ -11,7 +10,7 @@ share: true
 > ![OMFG](OMFG.png)
 
 **THE SAME QUOTE WITH CALLOUT**
-> [!NOTE]
->**coucou** ==coucou== *coucou*
-> ![[OMFG.png|alias]]
-> ![OMFG](OMFG.png)
+!!! NOTE
+	**coucou** ==coucou== *coucou*
+	![[OMFG.png|alias]]
+	![OMFG](OMFG.png)
