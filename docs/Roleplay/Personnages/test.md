@@ -1,15 +1,18 @@
 ---
-date: 02-05-2022
-share: true
+date: "02-05-2022"
+share: True
 obsidianUIMode: source
 title: Éden 28500
-description: Personnage pour un RP 
+description: Personnage pour un RP
 category: Roleplay/Personnages
 type: Fiche
 univers: Le laboratoire
-tags: RP/Le-laboratoire/Fiche/PJ
+tags: 
+- RP
+- Le-laboratoire
+- Fiche
+- PJ
 ---
-%% Parent:: [[Éden]] %%
  <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
@@ -24,7 +27,6 @@ I n t r o d u c t i o n<br>
 C a p a c i t é<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 
-%%  [[Zombie]]  %%
 
 **► Nature** : Transformation et renforcement
 
