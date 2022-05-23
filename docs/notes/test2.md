@@ -1,8 +1,6 @@
 ---
-share: true
+share: True
 ---
-
-
 # Obsidian Snippet Downloader  
   
 This plugin is here to help you to download and update css snippet that are on a GitHub repository.  
