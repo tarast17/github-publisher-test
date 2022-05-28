@@ -1,39 +1,21 @@
 name: ci
 on:
-  workflow_dispatch
-
+  pull_request:
+    types:
+      - closed
+      
 jobs:
-  build:
+  if_merged:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
+      - run: echo PR merged
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-        with:
-          python-version: 3.10.2
-      - name: obs2mk source files
+      - name: get changed files
+        uses: tj-actions/changed-files@v21
+      - name: List all changed files
         run: |
-          pip install obs2mk
-          for f in ${{ github.workspace}}/source/*
-          do
-            echo $f
-            if [[ "$f" == *md ]] 
-            then
-              obs2mk --GA --keep file "$f"
-            fi
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
           done
-          obs2mk --GA clean    
-      - name: Mkdocs build
-        run: |
-          pip install -r requirements.txt
-          mkdocs gh-deploy --force --clean
-      - name: clean source files
-        run: rm ${{github.workspace}}/source/*
-      - name: Push updateds files
-        run: |
-          git pull
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@users.noreply.github.com'
-          git add . 
-          fileList=$(git status --porcelain | tr -d '\n' | tr -d 'M' |tr -d '??')
-          git commit -am "🏓 Publishing from ObsidianMD\n ${fileList}"
-          git push
+          
