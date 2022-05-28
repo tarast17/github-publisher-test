@@ -1,8 +1,7 @@
 ---
 category: test
-share: true
+share: True
 ---
-
 www.mara-li.fr/docs/folder/
 docs/folder/
 www.mara-li.fr/docs/folder/
