@@ -30,10 +30,6 @@ jobs:
                 obs2mk --minimal file "$file"
               fi
             done
-      - name: mkdocs build
-        run: |
-          pip install -r requirements.txt
-          mkdocs gh-deploy --force --clean
       - name: push updated files & branchs
         run: |
           git pull
