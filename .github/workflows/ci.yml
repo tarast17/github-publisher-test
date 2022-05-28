@@ -11,6 +11,8 @@ jobs:
     steps:
       - run: echo PR merged
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: get changed files
         uses: tj-actions/changed-files@v21
       - name: List all changed files
