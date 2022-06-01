@@ -1,5 +1,4 @@
 ---
-share: true
+share: True
 ---
-
 Updating docs testing workflow
