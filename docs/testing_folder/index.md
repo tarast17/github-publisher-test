@@ -1,6 +1,6 @@
 ---
-share: True
+share: true
 ---
 this is a trying in index.md & conversion.
 
-[[index|Index]]
+[[testing_folder|(i) Index]]
