@@ -1,4 +1,6 @@
 ---
-share: True
+share: true
 ---
-[[../documentation/obs2mk/usage]]
+
+[alt text](../documentation/obs2mk/usage)
+[Blog creator](../documentation/create%20the%20blog)
