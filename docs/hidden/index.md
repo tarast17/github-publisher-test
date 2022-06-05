@@ -1,5 +1,4 @@
 ---
-share: true
+share: True
 ---
-
 Im folder note
