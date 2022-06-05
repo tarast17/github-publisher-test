@@ -1,4 +1,5 @@
 ---
-share: True
+share: true
 ---
-Updating docs testing workflow
+
+[[../documentation/obs2mk/usage]]
