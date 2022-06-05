@@ -1,4 +1,5 @@
 ---
-share: True
+share: true
 ---
-[[../documentation/obs2mk/usage]]
+
+[[../documentation/obs2mk/usage|alt text]]
