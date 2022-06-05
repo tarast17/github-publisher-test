@@ -1,6 +1,7 @@
 ---
-share: True
+share: true
 ---
+
 [alt text](usage)
 [Blog creator](create%20the%20blog)
 
