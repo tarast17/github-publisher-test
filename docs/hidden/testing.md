@@ -1,5 +1,6 @@
 ---
-share: True
+share: true
 ---
-[](exist%20pas)
-[](docs/hidden/index.md)
+
+[exist pas](exist%20pas)
+[docs/hidden/index.md](docs/hidden/index.md)
