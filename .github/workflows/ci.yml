@@ -25,6 +25,7 @@ jobs:
         run: |
           pip install obs2mk
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo $file : is name
             if [[ "$file" == *md ]] 
               then
                 obs2mk --minimal file "$file"
@@ -39,5 +40,4 @@ jobs:
           fileList=$(git status --porcelain | tr -d '\n' | tr -d 'M' |tr -d '??')
           git commit -m "🏓 Publishing from ObsidianMD" -m "${fileList}"
           git push
-                
-                
+            
