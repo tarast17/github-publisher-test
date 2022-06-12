@@ -19,13 +19,15 @@ jobs:
         uses: tj-actions/changed-files@v21
         with:
           since_last_remote_commit: true
+      - name: requirements install
+        run: |
+          pip install obs2mk
       - name: python install
         uses: actions/setup-python@v3
       - name: obs2mk minimal
         run: |
-          pip install obs2mk
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo $file : is name
+          for file in "${{ steps.changed-files.outputs.all_changed_files }}"; do
+            echo "$file" : is name
             if [[ "$file" == *md ]] 
               then
                 obs2mk --minimal file "$file"
