@@ -2,9 +2,9 @@
 share: true
 ---
 
-![private](private)
+![[private]]
 
-![private#^citation](private#%5Ecitation)
+![[private#^citation]]
 
-![private#heading citation](private#heading%20citation)
+![[private#heading citation]]
 
