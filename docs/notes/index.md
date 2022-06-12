@@ -3,7 +3,6 @@ template: blog.html
 title: Notes
 category: notes
 hidden: True
-index: true
+index: True
 ---
-
 not have share
