@@ -19,11 +19,13 @@ jobs:
         uses: tj-actions/changed-files@v21
         with:
           since_last_remote_commit: true
-      - name: requirements install
+      - name: python install
+        uses: actions/setup-python@v4
+        with: 
+          python_version: 3.10
+      - name: install obs2mk
         run: |
           pip install obs2mk
-      - name: python install
-        uses: actions/setup-python@v3
       - name: obs2mk minimal
         run: |
           for file in "${{ steps.changed-files.outputs.all_changed_files }}"; do
