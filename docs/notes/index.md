@@ -1,6 +1,6 @@
 ---
-template: blog.html
-title: Notes
-category: notes
-hidden: True
+share: true
 ---
+
+Sending a new index for hidden.
+
