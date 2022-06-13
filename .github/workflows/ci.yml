@@ -38,10 +38,6 @@ jobs:
               fi
             done
           unset IFS
-      - name: Mkdocs build
-        run: |
-          pip install -r requirements.txt
-          mkdocs gh-deploy --force --clean
       - name: Push updateds files
         run: |
           git pull
