@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 ---
 hello
 
@@ -9,3 +9,5 @@ block citation ^citation
 citation
 
 I'm hidden !
+
+![[assets/upload/obs2mk-2.png]]
