@@ -10,4 +10,4 @@ citation
 
 I'm hidden !
 
-![notes](./obs2mk-2.png)
+![img](docs/assets/img/obs2mk-2.png)
