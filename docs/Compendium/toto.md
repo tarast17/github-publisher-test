@@ -1,0 +1,18 @@
+---
+date: 02-05-2022
+share: true
+obsidianUIMode: source
+title: Éden 28500
+description: "Éden est une zombie adorable, diplomate, qui écoute les autres et n'aime pas la violence."
+category: Compendium
+type: Fiche
+univers: Le laboratoire
+tags: RP/Le-laboratoire/Fiche/PJ
+image: IMG_1314.jpg
+cover: https://www.mara-li.fr/assets/img/IMG_1314.jpg
+---
+
+coucou toto
+![](../assets/img/LOGO_SEO.png)
+deuxième image
+![](../assets/img/obs2mk-2.png)
