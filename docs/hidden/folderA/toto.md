@@ -1,10 +1,9 @@
 ---
-share: true
+share: True
 category: hidden/folderA
 title: 285800 BLOUP
 image: image.png
 ---
-
 coucou toto
 ![](../../assets/img/LOGO_SEO.png)
 deuxième image
