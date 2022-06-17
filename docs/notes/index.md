@@ -1,4 +1,4 @@
 ---
-share: True
+share: true
 ---
 Sending a new index for hidden.
