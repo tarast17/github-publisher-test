@@ -1,7 +1,6 @@
 ---
-share: true
+share: True
 ---
-
 I, as working on my blog, created some cool snippets or useful tools.
 
 # Grid CSS snippets
@@ -37,6 +36,7 @@ Add this to [`custom_attribute.css`](https://github.com/Mara-Li/obsidian-mkdocs-
 }
 ```
 
+
 # Add a image banner to mkdocs
 
 ![image](https://user-images.githubusercontent.com/30244939/163732766-d08b102f-508b-496e-a99f-68f865b2080b.png)
@@ -47,6 +47,7 @@ You can add a cool image banner with editing [`utils.css`](https://github.com/Ma
     background: var(--md-primary-fg-color) url(image_links) left center/cover no-repeat;
 }
 ```
+
 Don't forget to edit the `image_link` with the real links ! Personnaly, I use a unsplash image.
 
 # Convert code blocks to markdown
@@ -75,25 +76,26 @@ For example, for AGtable :
           format: !!python/name:mkdocs_custom_fences.md_render.md_sub_render
 ```
 
+
 ## Mkdocs plugins
 
->[!note] Note
->Don't forget to add the plugin in your `requirements.txt`
+!!! note "Note"
+	Don't forget to add the plugin in your `requirements.txt`
 
 # [Mkdocs Callouts](https://pypi.org/project/mkdocs-callouts/)
 
->[!info] Plugin's info
-> A simple plugin that converts Obsidian style callouts and turns them into mkdocs supported Admonitions.
->- Plugin link : https://pypi.org/project/mkdocs-callouts/
->- Installation : `pip install mkdocs-callouts`
+!!! info "Plugin's info"
+	A simple plugin that converts Obsidian style callouts and turns them into mkdocs supported Admonitions.
+	- Plugin link : https://pypi.org/project/mkdocs-callouts/
+	- Installation : `pip install mkdocs-callouts`
 
 Use this plugin if you don't want to use the script (in github actions or in general)
 
 # Page encrypted 
-> [!info] Plugin's info
-> This plugin allows you to have password protected articles and pages in MKdocs.
-> - Plugin link : https://pypi.org/project/mkdocs-encryptcontent-plugin/
-> - Installation : `pip install mkdocs-encryptcontent-plugin`
+!!! info "Plugin's info"
+	This plugin allows you to have password protected articles and pages in MKdocs.
+	- Plugin link : https://pypi.org/project/mkdocs-encryptcontent-plugin/
+	- Installation : `pip install mkdocs-encryptcontent-plugin`
 
 First, configure the display of this plugin for mkdocs with adding this in your css :
 
@@ -121,33 +123,33 @@ First, configure the display of this plugin for mkdocs with adding this in your 
 }
 ```
 
+
 Configure the `mkdocs.yml` to add the plugin, as follows the README.
 
->[!example] Example
-> This configuration allow to remember password and use per page password. 
-> ```yml
-> plugins:
-> 	- encryptcontent:
-> 	     title_prefix: '🔐 '
-> 	     summary: 'Private page'
-> 	     placeholder: 'Password'
-> 	     decryption_failure_message: 'Invalid!!'
-> 	     encryption_info_message: "You don't have access to this page without password"
-> 	     remember_password: True
-> 	     search_index: 'encrypted' #Material doesn't support dynamicaly encryption search
-> 	     password_button: True
-> 	     password_button_text: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z"/></svg>'
-> ```
-> But you could also support a full encrypted documentation : 
-> ```yml
-> plugins:
->    - encryptcontent:
->        global_password: 'your_password'
-> 
->```
+!!! example "Example"
+	This configuration allow to remember password and use per page password. 
+	```yml
+	plugins:
+		- encryptcontent:
+		     title_prefix: '🔐 '
+		     summary: 'Private page'
+		     placeholder: 'Password'
+		     decryption_failure_message: 'Invalid!!'
+		     encryption_info_message: "You don't have access to this page without password"
+		     remember_password: True
+		     search_index: 'encrypted' **Material**{: #Material .hash} doesn't support dynamicaly encryption search
+		     password_button: True
+		 	     password_button_text: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em"	<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --	<path d="M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z"/	</svg	'
+	```
+	But you could also support a full encrypted documentation : 
+	```yml
+	plugins:
+	   - encryptcontent:
+	       global_password: 'your_password'
+	
+	```
 
 To add a unique page encrypted, just add `password: your_secret_password` in your markdown file.
 
->[!warning] Security
-> Obviously, if you use this in a public repo, it's totally useless to add this security (the file can be viewed enterely in GitHub). Don't use this plugin to share sensible information!
-
+!!! warning "Security"
+	Obviously, if you use this in a public repo, it's totally useless to add this security (the file can be viewed enterely in GitHub). Don't use this plugin to share sensible information!
