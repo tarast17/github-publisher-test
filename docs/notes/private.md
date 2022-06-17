@@ -10,4 +10,4 @@ citation
 
 I'm hidden !
 
-![](../assets/img/obs2mk-2.png)
+![[../assets/img/obs2mk-2.png]]
