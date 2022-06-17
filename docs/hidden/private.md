@@ -5,7 +5,7 @@ hello
 
 block citation ^citation
 
-# heading citation
+# heading citatifon
 citation
 
 I'm hidden !
