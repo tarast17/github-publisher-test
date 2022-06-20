@@ -25,11 +25,9 @@ You can also run manually the convertor using `Publisher Manual` (in the `manual
 
 Note that you can also trigger the workflow using [Github CLI](https://cli.github.com/) using `gh workflow run manual_run.yml file=your_file`
 
-
-
 ## Other workflow
 It, also, exists :
-- A workflow based on push where the name **doesn't startswith `[Publisher]`**, that build the mkdocs page.
+- A workflow based on push where the name **doesn't startswith `[Publisher]`**, that build the mkdocs page (in case you manually edit a file, the overrides...)
 - A workflow running each 24h to update `requirements.txt` (and you can also force update). I created it because the Github Cache needs a fixed version on requirements, but it happens regulary that I update some plugins or update in Material Mkdocs. So, this workflow will **only** change the `requirements.txt` if it founds an update.
 
 
