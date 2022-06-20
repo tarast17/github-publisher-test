@@ -25,6 +25,8 @@ You can also run manually the convertor using `Publisher Manual` (in the `manual
 
 Note that you can also trigger the workflow using [Github CLI](https://cli.github.com/) using `gh workflow run manual_run.yml file=your_file`
 
+If you want to have the last message with your mkdocs page, you need to edit the `.github/env.txt` with the link to your page. 
+
 ## Other workflow
 It, also, exists :
 - A workflow based on push where the name **doesn't startswith `[Publisher]`**, that build the mkdocs page (in case you manually edit a file, the overrides...)
