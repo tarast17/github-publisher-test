@@ -27,7 +27,7 @@ jobs:
         run: |
           changed="${{ steps.changed-files.outputs.all_changed_files }}"
           lg_steps=${#changed}
-          LINK=$(head -n 1 .github/.env)
+          LINK=$(head -n 1 .github/env.txt)
           echo "$changed"
           echo "$lg_steps"
           echo "::set-output name=lg_files::$lg_steps"
@@ -62,6 +62,9 @@ jobs:
               fi
             done
           unset IFS
+      - name: Mkdocs build
+        run: |
+          mkdocs gh-deploy --force --clean
       - name: Push updated files
         continue-on-error: true
         run: |
