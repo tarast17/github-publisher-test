@@ -3,4 +3,6 @@ share: true
 category: hidden
 ---
 
-![[hidden/Illustration/prout/hidden but no]]
+![[hidden but no]]
+
+![[hidden/Illustration/prout/hidden]]
