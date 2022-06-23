@@ -3,7 +3,7 @@ share: true
 category: hidden
 ---
 
-![[hidden but no]]
+![[hidden but no|hidden]]
 
-![[hidden]]
+![[index|nop]]
 prout
