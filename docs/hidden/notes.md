@@ -3,7 +3,7 @@ share: true
 category: hidden
 ---
 
-![[hidden but no.md]]
+![[hidden but no]]
 
-![[index.md]]
+![[hidden]]
 prout
