@@ -1,11 +1,7 @@
 ---
 share: true
 otherfuckingthings: truc
-tags: 
-- inline_tags,inline_tags_
-- test
-- test
-- otherfuckingthings
+tags: test, test, otherfuckingthings
 testList:
 - list
 - list
