@@ -1,7 +1,16 @@
 ---
 share: true
 otherfuckingthings: truc
-tags: 
+tags: test
+- test
+- otherfuckingthings
+- inline_tags
+- inline_tags_
+- test
+- test
+- otherfuckingthings
+- inline_tags
+- inline_tags_
 - test
 - test
 - otherfuckingthings
