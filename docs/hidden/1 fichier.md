@@ -1,7 +1,7 @@
 ---
 share: true
 otherfuckingthings: truc
-tag: test, test, otherfuckingthings
+tags: test, test, otherfuckingthings
 ---
 
 otherfuckingthings
