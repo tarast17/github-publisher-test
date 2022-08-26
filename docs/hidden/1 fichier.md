@@ -2,8 +2,6 @@
 share: true
 coucou: truc
 tags:
-  - inline_tags
-  - inline_tags_2
   - test
   - coucou
 testList:
@@ -14,6 +12,4 @@ testList:
 
 Coucou
 1234858416547987
-#inline_tags
-#inline/tags/2
-#test
+
