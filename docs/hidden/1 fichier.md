@@ -1,6 +1,7 @@
 ---
 share: true
-tags: []
+tags:
+  - inline
 ---
 
 
@@ -9,5 +10,7 @@ Coucou
 
 ---
 repo bug
+
+#inline
 
 # tags
