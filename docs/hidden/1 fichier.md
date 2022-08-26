@@ -1,12 +1,13 @@
 ---
 share: true
 coucou: truc
-tags:
-  - test
-  - coucou
+tag: coucou
 testList:
   - list1
   - list2
+tags:
+  - inline
+  - coucou
 ---
 
 
@@ -15,3 +16,5 @@ Coucou
 
 ---
 repo bug
+
+#inline
