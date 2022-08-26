@@ -1,12 +1,6 @@
 ---
 share: true
-coucou: truc
-tag: coucou
-testList:
-  - list1
-  - list2
-tags:
-  - coucou
+tags: []
 ---
 
 
