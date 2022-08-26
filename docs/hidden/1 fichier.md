@@ -6,7 +6,6 @@ testList:
   - list1
   - list2
 tags:
-  - inline
   - coucou
 ---
 
@@ -17,4 +16,3 @@ Coucou
 ---
 repo bug
 
-#inline
