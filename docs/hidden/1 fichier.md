@@ -1,8 +1,6 @@
 ---
 share: true
 tags:
-  - "1"
-  - inline_tags
   - data
   - 1 fichier
   - test
@@ -17,5 +15,3 @@ Coucou
 
 testing:: "data", [[1 fichier]], "test", 1, 2
 value:: truc, machin, things
-
-#inline_tags
