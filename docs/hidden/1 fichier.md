@@ -1,16 +1,10 @@
 ---
 share: true
-tags:
-  - inline
+tags: []
 ---
 
 
 Coucou
 1234858416547987
 
----
-repo bug
-
-#inline
-
-# tags
+testing:: Dataview string value
