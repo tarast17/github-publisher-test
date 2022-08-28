@@ -7,4 +7,5 @@ tags: []
 Coucou
 1234858416547987
 
-testing:: [[test2]], [[1 fichier]], data, 1, 2, 3
+testing:: [[test2]], [[1 fichier]]
+
