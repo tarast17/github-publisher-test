@@ -7,5 +7,5 @@ tags: []
 Coucou
 1234858416547987
 
-testing:: [[test2]], [[1 fichier]]
+testing:: [[1 fichier]], [[Folder|Illustration]], 1
 
