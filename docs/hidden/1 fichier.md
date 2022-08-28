@@ -1,6 +1,13 @@
 ---
 share: true
-tags: 1inline_tags,1data,1 fichier,test,2,truc, machin, things
+tags:
+  - "1"
+  - inline_tags
+  - data
+  - 1 fichier
+  - test
+  - "2"
+  - truc, machin, things
 ---
 
 
