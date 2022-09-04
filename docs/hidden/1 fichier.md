@@ -2,6 +2,7 @@
 share: true
 mdlinks: true
 embed: true
+imageLink: image
 ---
 
 ![test2](test2)
