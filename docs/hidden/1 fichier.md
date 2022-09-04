@@ -1,5 +1,6 @@
 ---
 share: true
+links: true
 ---
 
-[test2](test2)
+[[test2]]
