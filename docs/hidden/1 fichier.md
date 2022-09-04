@@ -2,6 +2,7 @@
 share: true
 mdlinks: true
 links: false
+embed: false
 ---
 
 test2
