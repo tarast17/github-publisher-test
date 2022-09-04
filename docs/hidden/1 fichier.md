@@ -1,7 +1,7 @@
 ---
 share: true
 mdlinks: true
-embed: false
+embed: true
 ---
 
 ![test2](test2)
