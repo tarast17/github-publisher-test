@@ -1,7 +1,7 @@
 ---
 share: true
 mdlinks: true
-links: true
+links: false
 ---
 
 [test2](test2)
