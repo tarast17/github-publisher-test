@@ -5,7 +5,7 @@ embed: true
 dataview: true
 ---
 
-banner:: [](Pasted%20image%2020220905092456.png)
+banner:: Pasted image 20220905092456.png
 
 ![test2](test2)
 
