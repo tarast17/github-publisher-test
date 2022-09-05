@@ -5,7 +5,7 @@ embed: true
 dataview: true
 ---
 
-banner:: Pasted image 20220905092456.png
+banner:: i not exist mate
 
 ![test2](test2)
 
