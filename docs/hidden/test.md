@@ -3,7 +3,7 @@ share: true
 mdlinks: true
 embed: true
 dataview: true
-filename: test
+title: test
 ---
 
 banner:: i not exist mate
