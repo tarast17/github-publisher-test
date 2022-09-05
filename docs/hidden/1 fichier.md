@@ -9,6 +9,6 @@ banner:: [](Pasted%20image%2020220905092456.png)
 
 ![test2](test2)
 
-```dataview
-List from "Folder"
-```
+- [1 fichier](Folder/1%20fichier.md)
+- [test2](Folder/test/test2.md)
+
