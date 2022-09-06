@@ -2,4 +2,3 @@
 share: true
 ---
 
-![[test2]]
