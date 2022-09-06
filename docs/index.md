@@ -1,5 +1,5 @@
 ---
-index: true
+share: true
 ---
 
-Filetrue
+![[images/test_img.png]]
