@@ -5,6 +5,6 @@ share: true
 
 | File                               |
 | ---------------------------------- |
-| [[things\|1 fichier]] |
-| [[test2\|test2]]    |
+| [1 fichier](things) |
+| [test2](test2)    |
 
