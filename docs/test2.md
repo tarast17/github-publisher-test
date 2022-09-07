@@ -4,4 +4,3 @@ embed: false
 links: false
 ---
 ²
-![[Home]]
