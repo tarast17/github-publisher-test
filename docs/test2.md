@@ -1,7 +1,9 @@
 ---
 share: true
 ---
-²
+
 ![[Home]]
 
-https://www.google.fr/docs/test2
+![[images/CV.pdf]]
+
+![[images/CV.pdf]]
