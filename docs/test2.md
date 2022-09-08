@@ -1,11 +1,13 @@
 ---
 share: true
-embed: true
+embed: 
+  send: false
+  remove: true
 links: 
   convert: true
   mdlinks: true
 ---
 ²
-![Home](Home)
+Home
 
 https://www.google.fr/docs/test2
