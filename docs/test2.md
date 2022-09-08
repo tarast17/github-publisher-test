@@ -1,7 +1,9 @@
 ---
 share: true
 embed: true
-links: false
+links: 
+  convert: false
+  mdlinks: true
 ---
 ²
 ![[Home]]
