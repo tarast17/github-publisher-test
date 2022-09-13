@@ -7,4 +7,4 @@ category: "test folder"
 
 Test contents
 
-![[test2]]
+![[./test2]]
