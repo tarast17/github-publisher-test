@@ -7,5 +7,5 @@ title: things
 ---
 
 reference:: [test2](test2)
-![](images/CV.pdf)
+![CV.pdf](images/CV.pdf)
 banner:: test_img.png
