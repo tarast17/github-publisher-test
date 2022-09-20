@@ -1,38 +1,85 @@
-function heading(str) {
-    var title_regex = /\[{2}(.*)\|(.*)/gi
-    str_list = str.split(']]')
-    for (var i = 0; i < str_list.length; i++) {
-        truc = str_list[i].match(title_regex);
-        if (truc) {
-            title = truc.join().split('|')[1]
-            title = '[[' + title
-            str = str.replace(str_list[i].match(title_regex), title)
-
+function UrlExists(url, type_url) {
+    let ref = "";
+    let title = "";
+    if (type_url === 0) {
+        ref = url.href
+        title = url.title
+    }
+    else if (type_url === 1) {
+        ref = url.src
+        title = url.alt
+    }
+    if (ref.match(/index$/)) {
+        ref = ref.replace(/index$/, '')
+    }
+    if (ref.includes('%5C')) {
+        ref = ref.replace(/%5C/g, '/')
+    }
+    if (type_url === 0) {
+        url.href = ref
+        url.title = title
+    }
+    else if (type_url === 1) {
+        url.src = ref
+        url.alt = title
+    }
+    var http = new XMLHttpRequest();
+    http.open('GET', ref, true);
+    http.onload=function(e) {
+        if (http.status == '404') {
+            const newItem = document.createElement('div');
+            newItem.innerHTML = title;
+            newItem.classList.add('not_found');
+            url.parentNode.replaceChild(newItem, url);
+        }
+        else {
+            return true;
         }
     }
-    return str
+    http.send()
 }
 
-var p_search = /!?\[{2}(.*)\]{2}/gi
-var ht = document.querySelectorAll('article.md-content__inner.md-typeset > *:not(.highlight)');
+
+var p_search = /\.{2}\//gi
+const not_found = []
+var ht = document.querySelectorAll('a');
 for (var i = 0; i < ht.length; i++) {
-    const found_p = ht[i].innerHTML.match(p_search);
-    if (found_p) {
-        founded = heading(found_p[0])
-        var not_found = founded.replace(/]]/gi, '</div>');
-        not_found = not_found.replace(/\[\[/gi, '<div class="not_found">')
-        not_found = not_found.replace('!', '')
-        ht[i].innerHTML = ht[i].innerHTML.replace(found_p, not_found);
+    var link = UrlExists(ht[i],0);
+}
+
+var p_img = /\.+\\/gi
+var img = document.querySelectorAll('img');
+for (var i = 0; i < img.length; i++) {
+    (img[i].attributes.src.nodeValue)
+    if (img[i].alt.match(/\|?\d+$/)) {
+        img[i].width = img[i].alt.match(/\|?\d+$/)[0].replace('|', '')
+    }
+    var link = UrlExists(img[i],1);
+}
+
+
+
+var ht = document.querySelectorAll('article.md-content__inner.md-typeset > *:not(.highlight)');
+var scr=/\^(.*)/gi;
+for (var i = 0; i <ht.length;i++){
+    const fp=ht[i].innerHTML.match(scr)
+	if (fp) {
+        ht[i].innerHTML=ht[i].innerHTML.replace(fp, '')
     }
 }
 document.innerHTML = ht;
 
-var p_img = /\.+\\/gi
-var img = document.querySelectorAll('img');
-var links = document.querySelector("link[rel='icon']").href.replace('assets/logo/favicons.png', '');
-for (var i = 0; i < img.length; i++) {
-    img[i].attributes.src.nodeValue = img[i].attributes.src.nodeValue.replace(/\.+\\/, links)
-    if (img[i].alt.match(/\|?\d+$/)) {
-        img[i].width = img[i].alt.match(/\|?\d+$/)[0].replace('|', '')
+var cite = document.querySelectorAll('.citation');
+if (cite) {
+    for (var i = 0; i < cite.length; i++) {
+        var img = cite[i].innerHTML.match(/!?(\[{2}|\[).*(\]{2}|\))/gi)
+        if (img) {
+            for (var j = 0; j < img.length; j++) {
+                cite[i].innerHTML = cite[i].innerHTML.replace(img[j], '')
+            }
+            if (cite[i].innerText.trim().length < 2) {
+                cite[i].style.display='none';
+            }
+            }
+        }
     }
-}
