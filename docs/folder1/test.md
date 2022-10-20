@@ -4,4 +4,4 @@ share: true
 ---
 test
 
-[contents](contents.md)
+[contents](contents)
