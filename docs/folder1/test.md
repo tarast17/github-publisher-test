@@ -4,4 +4,4 @@ share: true
 ---
 test
 
-[contents](../folder2/contents)
+[contents](../folder2/contents.md)
