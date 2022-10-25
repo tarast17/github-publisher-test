@@ -5,7 +5,7 @@ repo:
   owner: ObsidianPublisher
   repo: github-publisher-test
   branch: main
+autoclean: false
 ---
 before
 after
- ![logo_lagendia.webp](../images/logo_lagendia.webp.md)
