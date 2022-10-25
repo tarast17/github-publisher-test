@@ -1,9 +1,8 @@
 ---
 share: true
 category: "test folder"
+repo: "ObsidianPublisher/github-publisher-test/main"
 ---
-
-
-
-Nop
-create a merge conflic mayeb
+before
+after
+ 
