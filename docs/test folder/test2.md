@@ -1,7 +1,10 @@
 ---
 share: true
 category: "test folder"
-repo: "ObsidianPublisher/github-publisher-test/main"
+repo: 
+  owner: ObsidianPublisher
+  repo: github-publisher-test
+  branch: main
 ---
 before
 after
